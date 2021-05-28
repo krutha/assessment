@@ -20,7 +20,7 @@
      state:  'florida' ,
     age:     25,
     greeter() {
-      return  `Hello! My name is ${firstName} and I live in${state}`
+      return  `Hello! My name is ${this.firstName} and I live in${this.state}`
     }
  } 
    me.greeter();
@@ -69,44 +69,3 @@ console.log(car1 .isNew)
 
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
